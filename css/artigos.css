@@ -1,0 +1,46 @@
+#page-title{
+    color: #863131;   
+    font-weight: 400;
+}
+
+#imagem-site{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+.link-artigos h1{
+    color: #BA6E6E;
+    font-size: 24px;
+    text-align: left;
+}
+
+.link-artigos p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 40px;
+    text-indent: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#tags {
+    text-align: center;
+    margin: 30px;
+}
+
+
+h1, h2{
+    color:  #7e3232;
+    font-size: 18x;
+    text-align: left;
+}
+
+
+p{
+    color:  #080808;
+    font-size: 18x;
+    text-align: justify;
+}

@@ -1,0 +1,144 @@
+h3#page-title {
+    font-variant: small-caps;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #BA6E6E;
+    text-align: center;
+    text-indent: 20px;
+}
+
+/*formatação pagina login.css*/
+#area #formulario
+{
+    display: block;
+    float: left;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 1%;
+    padding: 10px 20px 10px 15px;
+    margin:0;
+    min-height: 50px;
+    text-align:justify;
+}
+
+#formulario b {
+  font-variant: small-caps;
+  font-size: 18px;
+  margin-left: 450px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #BA6E6E;
+}
+
+fieldset
+{
+  border: solid 3px #BA6E6E;
+  width:900px;
+  height:750px;
+}
+
+legend
+{
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  size: 20px;
+  color: #BA6E6E;
+}
+#formulario label
+{
+  display: block;
+  margin-top: 10px;
+  left:19px;
+  text-align: right;
+  margin-right:50px;
+  color: #BA6E6E
+
+  }
+  #formulario select
+  {
+    padding: 5px;
+    border: solid 1px #BA6E6E;
+    width:460px;
+    outline: 0;
+  }
+
+#campo_nome
+{
+  padding: 5px;
+  border: solid 1px #BA6E6E;
+  width:460px;
+}
+#campo_email
+{
+  padding: 5px;
+  border: solid 1px #BA6E6E;
+  width:460px;
+}
+#campo_date
+{
+  left:100px;
+  border: solid 1px #BA6E6E;
+  margin-top:2px;
+  width:125px;
+}
+
+#campo_sexo
+{
+  left:2px;
+  border: solid 1px #BA6E6E;
+  margin-top:2px;
+  width:25px;
+}
+
+#campo_telNo
+{
+  padding: 5px;
+  border: solid 1px #BA6E6E;
+  width:425px;
+}
+
+#formulario textarea
+{
+  padding: 10px;
+  width:400px;
+  height: 100px;
+  resize:none;
+  outline: 0;
+  border: solid 1px #BA6E6E;
+}
+
+input {
+    border-radius: 5px;
+    border: solid 1px #BA6E6E;
+}
+
+#btnSubmit
+{
+  padding: 10px;
+  border: solid 2px #BA6E6E;
+  background: #fff;
+  width: 75px;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-left: 780px;
+}
+
+
+#voltar {
+    background-color: #BA6E6E;
+    text-align: center;
+    padding: 4px 0;
+    color: #191919;
+}
+
+#voltar a {
+    color: #191919;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#voltar ul li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 30px;
+    font-variant: small-caps;
+}

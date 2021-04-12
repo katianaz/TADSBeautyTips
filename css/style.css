@@ -1,0 +1,205 @@
+/*
+Paleta de cores
+branco: E6E8E6
+rosa: BA6E6E
+preto: 191919
+*/
+
+body {
+    background-color: #e6e8e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 53px;
+    color: #191919;
+}
+
+/* formatação menu e cabeçalho */
+#cabecalho {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#menu {
+    background-color: #BA6E6E;
+    text-align: right;
+    padding: 4px 0;
+    color: #191919;
+}
+
+#menu a {
+    color: #191919;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#menu a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    background-color: #191919;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#menu a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#menu ul li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 30px;
+    font-variant: small-caps;
+}
+
+#menu ul li#logotipo {
+    padding-right: 550px;
+}
+
+img#logo {
+    width: 50%;
+}
+
+table#logo {
+    border-bottom: 1px solid #BA6E6E;
+    text-align: center;
+    width: 100%;
+}
+
+p#logomarca {
+    font-size: 32px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 6%;
+    margin-left: 4% ;
+}
+
+/* formatação coluna da esquerda */
+#corpo {
+    display: block;
+    float: left;
+    width: 74%;
+    background-color: #fff;
+    border-radius: 1%;
+    padding: 10px 15px 10px 20px;
+    margin: 10px 0;
+}
+
+p#page-title {
+    font-variant: small-caps;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-indent: 20px;
+}
+
+.page-content {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-indent: 20px;
+}
+
+/* formatação coluna da direita */
+#lateral {
+    display: block;
+    float: right;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 1%;
+    padding: 10px 20px 10px 15px;
+    margin: 10px 0;
+    min-height: 70px;
+    text-align: center;
+}
+
+img#foto-sobre-nos {
+    width: 70%;
+    
+}
+
+img#img-instagram {
+    width: 10%
+}
+
+.about {
+    font-size: 13px;
+}
+
+tr#redes-sociais img {
+    width: 30%;
+    padding: 20px 0 0;
+}
+
+tr#redes-sociais {
+    padding: 0;
+    margin: 0;
+}
+
+/* formatação footer */
+footer#rodape {
+    clear: both; /* vai fazer com que o footer apareça embaixo das configurações do aside e do section*/
+    border-top: 1px solid #BA6E6E;
+    width: 100%;
+}
+
+#nav-rodape {
+    padding: 4px 0;
+}
+
+footer#rodape p {
+    text-align: center;
+    margin: 30px;
+    color: #BA6E6E;
+    font-size: 16px;
+    text-indent: 0;
+}
+
+footer#rodape a {
+    text-align: center;
+    margin: 30px;
+    color: #BA6E6E;
+    font-size: 16px;
+    text-decoration: none;    
+    font-weight: bold;
+}
+
+#tag {
+    text-align: center;
+    margin: 30px;
+
+}
+#construction{
+    padding: 30px 0px;
+    display: grid;
+    color: #BA6E6E;
+    text-align: center;
+       
+}
+#construction img{
+    width: 30%;
+    margin: 30px auto;
+}
+
+/* formatação links gerais */
+a {
+    color: #191919;
+    text-decoration: none;
+    position: relative;
+}
+#tags a {
+
+    color: #BA6E6E;
+    font-variant: small-caps;
+    margin: 0px 10px;
+
+}

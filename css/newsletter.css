@@ -1,0 +1,15 @@
+div#btn {
+  text-align: center;
+}
+
+#btnSubmit {
+  width: 220px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  font-size: 19px;
+  background-color: #BA6E6E;
+  border: solid 1px #191919;
+  color: #E6E8E6;
+}

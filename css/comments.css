@@ -1,0 +1,52 @@
+h3 {
+  color: #BA6E6E;
+  font-variant: small-caps;
+}
+
+.past-comments {
+  border-top: 1px solid #BA6E6E;
+  margin: 50px 0 0;
+  padding: 0 0 30px;
+}
+
+.comment p#author {
+  color: #BA6E6E;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.comment p#commentText {
+  color: #191919;
+  padding: 0;
+  margin-top: 0;
+}
+
+.new-comment {
+  display: grid;
+  border-top: 1px solid #BA6E6E;
+}
+
+input {
+  border-radius: 5px;
+  border: solid 1px #BA6E6E;
+}
+
+#txtName {
+  margin-bottom: 5px;
+}
+
+#txtComment {
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  border: solid 1px #BA6E6E;
+  margin-bottom: 10px;
+}
+
+#btnSubmit {
+  width: 120px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 1px #BA6E6E;
+}

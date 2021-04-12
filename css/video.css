@@ -1,0 +1,112 @@
+h3{
+ color: #BA6E6E;
+ font-variant: small-caps;
+
+}
+
+iframe{
+    
+    width: 80%;
+    height: 450px;
+    border-radius: 5px;
+    
+}
+
+.page-content{
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: -2px;
+}
+
+#conteudo{
+    text-align: center;
+}
+#tabela{
+    text-align: center;
+}
+
+table#table{
+    padding: 15px;
+    border: solid 1px #e6e8e6;
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+table#table th{
+    border: solid 1px #e6e8e6;
+    padding: 5px;
+    border-radius: 5px;
+    font-variant: small-caps;
+}
+
+table#table td{
+    border: solid 1px #e6e8e6;
+    padding: 5px;
+    border-radius: 5px;    
+    text-transform: uppercase;
+}
+
+#comentarios{
+    display: grid;  
+}
+
+#txtTopic {
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 1px #BA6E6E;
+    margin-bottom: 10px;     
+}
+
+#txtName{
+    text-align: start; 
+    border: solid 1px #BA6E6E;
+    border-radius: 5px;   
+}
+#nome {
+    text-align: start; 
+}
+
+
+
+#btnSubmit{
+    width: 120px;
+    cursor: pointer;
+    border: solid 1px #BA6E6E;
+    border-radius: 5px;
+    
+}
+
+tr.tr-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#tag{
+    color: #BA6E6E;
+    font-variant: small-caps;
+    border:#191919
+}
+
+#tags {
+    text-align: center;
+    margin: 30px;
+
+}
+
+/* formatação links gerais */
+
+a {
+    color: #BA6E6E;
+    font-variant: small-caps;
+    margin: 0px 10px;
+
+}
+
+.testedocss h1{
+    color: red;
+}

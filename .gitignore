@@ -1,0 +1,7 @@
+#ignora informações banco de dados
+/create_*
+/credentials.php
+
+#ignora biblioteca jquery
+/script/jquery-3.5.1.js
+
